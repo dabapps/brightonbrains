@@ -1,4 +1,5 @@
 .header {
+  @include clearfix;
   background: $header-background;
   color: $text-light;
   padding: $padding-double 0;
@@ -8,6 +9,10 @@
   h1,
   p {
     margin: $margin-base 0;
+  }
+
+  p {
+    line-height: $line-height-base * 1.2;
   }
 
   img {
