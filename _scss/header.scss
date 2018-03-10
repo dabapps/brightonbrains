@@ -1,7 +1,7 @@
 .header {
   @include clearfix;
   background: $header-background;
-  color: $text-light;
+  color: $text-color-light;
   padding: $padding-double 0;
   margin-bottom: $margin-base;
 
