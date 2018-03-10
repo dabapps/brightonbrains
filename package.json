@@ -1,0 +1,30 @@
+{
+  "name": "brightonbrains",
+  "version": "1.0.0",
+  "description": "Bringing together the creative and digital communities of Brighton and Hove and the academic and student communities of local universities and colleges.",
+  "main": "index.js",
+  "scripts": {
+    "start": "bundle exec jekyll serve",
+    "build": "bundle exec jekyll build",
+    "test": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dabapps/brightonbrains-2018.git"
+  },
+  "keywords": [
+    "brighton",
+    "brains",
+    "brightonbrains",
+    "jekyll",
+    "github",
+    "pages",
+    "gh-pages"
+  ],
+  "author": "DabApps",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/dabapps/brightonbrains-2018/issues"
+  },
+  "homepage": "https://github.com/dabapps/brightonbrains-2018#readme"
+}
