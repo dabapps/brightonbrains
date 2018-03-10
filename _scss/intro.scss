@@ -1,0 +1,9 @@
+.intro {
+  & > .col:nth-of-type(odd) {
+    clear: both;
+
+    @media all and (min-width: $screen-md) {
+      clear: none;
+    }
+  }
+}
