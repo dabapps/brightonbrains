@@ -7,7 +7,7 @@
   margin: $margin-double 0;
 
   .left {
-    width: 150px;
+    width: $listing-left-width;
     float: left;
     margin-right: $margin-double;
     margin-bottom: $margin-base;
@@ -29,12 +29,19 @@
     margin: $margin-base 0;
 
     dt {
-      width: 150px;
+      width: $listing-left-width;
       clear: both;
     }
 
-    dd:first-of-type {
-      font-weight: $font-weight-bold;
+    dd {
+      text-overflow: ellipsis;
+      white-space: nowrap;
+      overflow: hidden;
+      max-width: calc(100% - #{$listing-left-width});
+
+      &:first-of-type {
+        font-weight: $font-weight-bold;
+      }
     }
 
     dt,
