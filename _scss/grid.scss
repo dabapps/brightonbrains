@@ -1,0 +1,27 @@
+.clearfix {
+  @include clearfix;
+}
+
+.row {
+  @include clearfix;
+  margin: 0 $gutter-width-half * -1;
+}
+
+.col {
+  @include clearfix;
+  width: 100%;
+  padding: 0 $gutter-width-half;
+  float: left;
+
+  @each $name, $size in $screen-sizes {
+    @for $i from 0 through $columns {
+
+      &.#{$name}-#{$i} {
+        @media all and (min-width: $size) {
+          width: 100% / $columns * $i;
+        }
+      }
+
+    }
+  }
+}

@@ -1,0 +1,15 @@
+@each $display in $displays {
+  .display-#{$display} {
+    display: $display;
+  }
+}
+
+@each $name, $size in $screen-sizes {
+  @each $display in $displays {
+    .#{$name}-display-#{$display} {
+      @media all and (min-width: $size) {
+        display: $display;
+      }
+    }
+  }
+}

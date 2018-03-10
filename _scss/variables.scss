@@ -5,6 +5,9 @@ $screen-sm: 480px;
 $screen-md: 768px;
 $screen-lg: 1024px;
 
+$screen-sizes: (sm: $screen-sm, md: $screen-md, lg: $screen-lg);
+$displays: block, inline-block, inline, none, table;
+
 $text-light: #EEEEEE;
 
 $font-family-base: arial, helvetica, sans-serif;
@@ -21,3 +24,5 @@ $margin-half: $margin-base / 2;
 
 $gutter-width: 30px;
 $gutter-width-half: $gutter-width / 2;
+
+$columns: 12;
