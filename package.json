@@ -6,7 +6,8 @@
   "scripts": {
     "start": "bundle exec jekyll serve",
     "build": "bundle exec jekyll build",
-    "test": "npm run build"
+    "update": "bundle update",
+    "test": "npm run update && npm run build"
   },
   "repository": {
     "type": "git",
