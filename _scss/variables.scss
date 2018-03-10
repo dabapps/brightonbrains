@@ -12,6 +12,7 @@ $text-color-base: #333333;
 $text-color-light: #EEEEEE;
 $listing-background: #FFFFFF;
 $link-color: #2266DD;
+$shadow-soft: 0 1px 3px 0 rgba(0, 0, 0, 0.2);
 
 $font-family-header: 'Open Sans', sans-serif;
 $font-weight-header: 300;
@@ -34,3 +35,5 @@ $gutter-width: 30px;
 $gutter-width-half: $gutter-width / 2;
 
 $columns: 12;
+
+$border-radius-base: 2px;

@@ -2,4 +2,6 @@
   @include clearfix;
   background-color: $listing-background;
   padding: 0 $padding-base;
+  border-radius: $border-radius-base;
+  box-shadow: $shadow-soft;
 }
