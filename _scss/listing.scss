@@ -33,6 +33,10 @@
       clear: both;
     }
 
+    dd:first-of-type {
+      font-weight: $font-weight-bold;
+    }
+
     dt,
     dd {
       display: block;
