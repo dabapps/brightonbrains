@@ -3,6 +3,7 @@
   margin: 0 auto;
   padding: 0 $gutter-width-half;
   width: 100%;
+  max-width: $screen-lg;
 
   @media all and (min-width: $screen-sm) {
     width: $screen-sm;
