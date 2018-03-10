@@ -7,4 +7,17 @@ $screen-lg: 1024px;
 
 $text-light: #EEEEEE;
 
+$font-family-base: arial, helvetica, sans-serif;
+$font-size-base: 16px;
+$line-height-base: 1.2em;
+
+$padding-base: 10px;
+$padding-double: $padding-base * 2;
+$padding-half: $padding-base / 2;
+
+$margin-base: 10px;
+$margin-double: $margin-base * 2;
+$margin-half: $margin-base / 2;
+
 $gutter-width: 30px;
+$gutter-width-half: $gutter-width / 2;
