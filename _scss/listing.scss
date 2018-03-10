@@ -1,10 +1,18 @@
 .listings {
-  & > .col:nth-of-type(odd) {
-    clear: both;
+  display: flex;
+  flex-wrap: wrap;
+
+  & > .col {
+    display: flex;
+
+    &:nth-of-type(odd) {
+      clear: both;
+    }
   }
 
   .content {
     @include clearfix;
+    width: 100%;
     background-color: $listing-background;
     padding: 0 $padding-base;
     border-radius: $border-radius-base;
