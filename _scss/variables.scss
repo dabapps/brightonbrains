@@ -13,9 +13,14 @@ $text-color-light: #EEEEEE;
 $listing-background: #FFFFFF;
 $link-color: #2266DD;
 
-$font-family-base: arial, helvetica, sans-serif;
+$font-family-header: 'Open Sans', sans-serif;
+$font-weight-header: 300;
+$font-family-headers: 'Open Sans', sans-serif;
+$font-weight-headers: 400;
+$font-family-base: 'Open Sans', sans-serif;
+$font-weight-base: 400;
 $font-size-base: 16px;
-$line-height-base: 1.2em;
+$line-height-base: 1.4em;
 
 $padding-base: 10px;
 $padding-double: $padding-base * 2;

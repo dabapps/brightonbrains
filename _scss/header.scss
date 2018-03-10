@@ -11,8 +11,10 @@
     margin: $margin-base 0;
   }
 
+  h1,
   p {
-    line-height: $line-height-base * 1.2;
+    font-family: $font-family-header;
+    font-weight: $font-weight-header;
   }
 
   img {
