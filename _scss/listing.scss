@@ -34,33 +34,20 @@
       }
     }
 
-    .links {
+    .link {
       @include clearfix;
       display: block;
+      width: 100%;
       font-size: $font-size-base * 0.9;
       line-height: $line-height-base * 1.2;
-      margin: $margin-base 0;
-
-      dt {
-        width: $listing-left-width;
-        clear: both;
-      }
-
-      dd {
-        text-overflow: ellipsis;
-        white-space: nowrap;
-        overflow: hidden;
-        max-width: calc(100% - #{$listing-left-width});
-
-        &:first-of-type {
-          font-weight: $font-weight-bold;
-        }
-      }
+      margin: $margin-half 0;
+      text-overflow: ellipsis;
+      white-space: nowrap;
+      overflow: hidden;
 
       dt,
       dd {
-        display: block;
-        float: left;
+        display: inline;
         margin: 0;
         padding: 0;
       }

@@ -1,0 +1,33 @@
+<div class="col md-6">
+  <div class="content">
+    <h2>
+      <a href="{{include.listing.website}}" title="Website" target="_blank">{{include.listing.name}}</a>
+    </h2>
+    <div class="left">
+      <img alt="{{include.listing.name}}" src="assets/images/groups/async.jpg" />
+    </div>
+    <div class="right">
+      <p>
+        {{include.listing.description}}
+      </p>
+      <dl class="link">
+        <dt>Wesbite:</dt>
+        <dd>
+          <a href="{{include.listing.website}}" title="Website" target="_blank">
+            {{include.listing.website}}
+          </a>
+        </dd>
+      </dl>
+      {% for link in include.listing.links %}
+        <dl class="link">
+          <dt>{{link.name}}:</dt>
+          <dd>
+            <a href="{{link.url}}" title="{{link.name}}" target="_blank">
+              {{link.url}}
+            </a>
+          </dd>
+        </dl>
+      {% endfor %}
+    </div>
+  </div>
+</div>
