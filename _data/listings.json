@@ -217,8 +217,13 @@
       {
         "name": "Website",
         "url": "http://www.pressfiretowin.com/"
+      },
+      {
+        "name": "Meetup",
+        "url": "https://www.meetup.com/en-AU/Press-Fire-to-Win/"
       }
-    ]
+    ],
+    "image": "pressfiretowin.jpeg"
   },
   {
     "name": "Brighton Indies",
