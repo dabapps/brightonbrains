@@ -231,6 +231,21 @@
     ]
   },
   {
+    "name": "Brighton Indie Coffee",
+    "description": "Weekly coffee meetup for indie and solo game devs in Brighton/Hove. 9:30 AM on Tuesdays. Cafe rotates weekly.",
+    "links": [
+      {
+        "name": "Twitter",
+        "url": "https://twitter.com/IndieCoffee_BH"
+      },
+      {
+        "name": "Meetup",
+        "url": "https://www.meetup.com/en-AU/Brighton-Game-Collective/"
+      }
+    ],
+    "image": "indiecoffee.jpeg"
+  },
+  {
     "name": "Brighton Game Collective Drinks",
     "description": "Brighton Game Collective is a game development co-working space and community network in Brighton & Hove. This group is used to promote social events and activities organized by the Collective.",
     "links": [
