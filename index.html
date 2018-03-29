@@ -30,7 +30,7 @@ layout: default
 
 <section class="section listings">
 
-  {% assign listings = site.data.listings | sort: 'name' %}
+  {% assign listings = site.data.listings | sort_natural: 'name' %}
 
   {% for listing in listings %}
     {% include listing.html listing=listing %}
