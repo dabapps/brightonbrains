@@ -1,11 +1,11 @@
 <div class="col md-6">
   <div class="content">
     <h2>
-      <a href="{{include.listing.links[0].url}}" title="{{include.listing.links[0].name}}" target="_blank">{{include.listing.name}}</a>
+      <a href="{{ include.listing.links[0].url }}" title="{{ include.listing.links[0].name }}" target="_blank">{{ include.listing.name }}</a>
     </h2>
     <div class="left">
       {% if include.listing.image %}
-        <img alt="{{include.listing.name}}" src="assets/images/groups/{{include.listing.image}}" />
+        <img alt="{{ include.listing.name }}" src="assets/images/groups/{{ include.listing.image }}" />
       {% else %}
         <div class="no-image">
           <p>We don't have an image for this meetup.</p>
@@ -19,14 +19,14 @@
     </div>
     <div class="right">
       <p>
-        {{include.listing.description}}
+        {{ include.listing.description }}
       </p>
       {% for link in include.listing.links %}
         <dl class="link">
-          <dt>{{link.name}}:</dt>
+          <dt>{{ link.name }}:</dt>
           <dd>
-            <a href="{{link.url}}" title="{{link.name}}" target="_blank">
-              {{link.url}}
+            <a href="{{ link.url }}" title="{{ link.name }}" target="_blank">
+              {{ link.url }}
             </a>
           </dd>
         </dl>
