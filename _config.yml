@@ -20,8 +20,10 @@ description: >- # this means to ignore newlines until "baseurl:"
   and the academic and student communities of local universities and colleges.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://brightonbrains.org" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: dabapps
+twitter_username: brightonbrains
 github_username:  dabapps
+company_website: https://www.dabapps.com
+company_name: DabApps
 
 # Build settings
 markdown: kramdown
