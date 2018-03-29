@@ -15,7 +15,8 @@
         "name": "YouTube",
         "url": "https://youtube.com/AsyncBrighton"
       }
-    ]
+    ],
+    "image": "async.jpg"
   },
   {
     "name": "Codebar",
@@ -39,7 +40,8 @@
         "name": "Website",
         "url": "http://www.brightonpy.org/"
       }
-    ]
+    ],
+    "image": "brightonpylogo.png"
   },
   {
     "name": "Brighton ALT.NET",
@@ -93,7 +95,8 @@
         "name": "Twitter",
         "url": "https://twitter.com/badassuk"
       }
-    ]
+    ],
+    "image": "badass.png"
   },
   {
     "name": "Functional Brighton",
@@ -103,7 +106,8 @@
         "name": "Meetup",
         "url": "https://www.meetup.com/en-AU/Functional-Brighton/"
       }
-    ]
+    ],
+    "functionalbrighton.png"
   },
   {
     "name": "Codeclub",
@@ -303,7 +307,8 @@
         "name": "Website",
         "url": "http://buildbrighton.com/"
       }
-    ]
+    ],
+    "image": "buildbrighton.jpg"
   },
   {
     "name": "MakerClub",
@@ -327,7 +332,8 @@
         "name": "Wired Sussex",
         "url": "https://www.wiredsussex.com/projects/bang.asp"
       }
-    ]
+    ],
+    "image": "bang.png"
   },
   {
     "name": "Brighton Nerd Night",
