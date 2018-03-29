@@ -10,6 +10,8 @@ $displays: block, inline-block, inline, none, table;
 
 $text-color-base: #333333;
 $text-color-light: #EEEEEE;
+$no-image-text-color: #777777;
+$no-image-background: #CCCCCC;
 $listing-background: #FFFFFF;
 $link-color: #2266DD;
 $shadow-soft: 0 1px 3px 0 rgba(0, 0, 0, 0.2);
@@ -25,6 +27,7 @@ $font-weight-header: $font-weight-light;
 $font-weight-headers: $font-weight-regular;
 $font-weight-base: $font-weight-regular;
 $font-size-base: 16px;
+$font-size-small: 12px;
 $line-height-base: 1.4em;
 
 $padding-base: 10px;

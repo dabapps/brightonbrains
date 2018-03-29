@@ -19,6 +19,18 @@
     box-shadow: $shadow-soft;
     margin: $margin-base 0;
 
+    .no-image {
+      font-size: $font-size-small;
+      padding: $padding-half $padding-base;
+      line-height: 1.2em;
+      background-color: $no-image-background;
+      color: $no-image-text-color;
+
+      p {
+        margin: $padding-half auto;
+      }
+    }
+
     .left {
       width: $listing-left-width;
       float: left;

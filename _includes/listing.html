@@ -4,7 +4,18 @@
       <a href="{{include.listing.links[0].url}}" title="{{include.listing.links[0].name}}" target="_blank">{{include.listing.name}}</a>
     </h2>
     <div class="left">
-      <img alt="{{include.listing.name}}" src="assets/images/groups/async.jpg" />
+      {% if include.listing.image %}
+        <img alt="{{include.listing.name}}" src="assets/images/groups/{{include.listing.image}}" />
+      {% else %}
+        <div class="no-image">
+          <p>We don't have an image for this meetup.</p>
+          <p>
+            If you have a photo you'd like us to use, submit an
+            <a alt="GitHub issues" href="https://github.com/dabapps/brightonbrains/issues">issue on GitHub</a>
+            with your name, link to the image and your website / Twitter so we can credit you.
+          </p>
+        </div>
+      {% endif %}
     </div>
     <div class="right">
       <p>
