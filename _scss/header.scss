@@ -29,3 +29,11 @@
     }
   }
 }
+
+.built-by {
+  margin: 0;
+
+  @media all and (min-width: $screen-sm) {
+    float: right;
+  }
+}
