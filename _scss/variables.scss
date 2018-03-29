@@ -1,0 +1,48 @@
+$body-background: url('../images/template/background.png');
+$header-background: url('../images/template/header-background.png');
+
+$screen-sm: 480px;
+$screen-md: 768px;
+$screen-lg: 1024px;
+
+$screen-sizes: (sm: $screen-sm, md: $screen-md, lg: $screen-lg);
+$displays: block, inline-block, inline, none, table;
+
+$text-color-base: #333333;
+$text-color-light: #EEEEEE;
+$no-image-text-color: #777777;
+$no-image-background: #CCCCCC;
+$listing-background: #FFFFFF;
+$link-color: #2266DD;
+$shadow-soft: 0 1px 3px 0 rgba(0, 0, 0, 0.2);
+
+$font-weight-light: 300;
+$font-weight-regular: 400;
+$font-weight-bold: 600;
+
+$font-family-header: 'Open Sans', sans-serif;
+$font-family-headers: 'Open Sans', sans-serif;
+$font-family-base: 'Open Sans', sans-serif;
+$font-weight-header: $font-weight-light;
+$font-weight-headers: $font-weight-regular;
+$font-weight-base: $font-weight-regular;
+$font-size-base: 16px;
+$font-size-small: 12px;
+$line-height-base: 1.4em;
+
+$padding-base: 10px;
+$padding-double: $padding-base * 2;
+$padding-half: $padding-base / 2;
+
+$margin-base: 10px;
+$margin-double: $margin-base * 2;
+$margin-half: $margin-base / 2;
+
+$gutter-width: 30px;
+$gutter-width-half: $gutter-width / 2;
+
+$columns: 12;
+
+$border-radius-base: 2px;
+
+$listing-left-width: 150px;

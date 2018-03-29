@@ -1,0 +1,14 @@
+.social {
+  overflow: hidden;
+
+  .facebook,
+  .twitter {
+    float: left;
+    margin: $margin-base;
+    margin-left: 0;
+
+    &:last-child {
+      margin-right: 0;
+    }
+  }
+}

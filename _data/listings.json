@@ -1,0 +1,389 @@
+[
+  {
+    "name": "Async",
+    "description": "A Web Tech Meetup for Brighton & Hove. Async meets monthly in Brighton & Hove, UK, to learn, discuss and play with JavaScript and related web technologies. We host talks, hack nights, show n' tells and community events, all of which are free. Doors open 7.15pm, main session begins 7.45pm, we end around 9.30pm and continue nearby for an evening social.",
+    "links": [
+      {
+        "name": "Website",
+        "url": "https://asyncjs.com/"
+      },
+      {
+        "name": "Twitter",
+        "url": "https://twitter.com/asyncjs"
+      },
+      {
+        "name": "YouTube",
+        "url": "https://youtube.com/AsyncBrighton"
+      }
+    ],
+    "image": "async.png"
+  },
+  {
+    "name": "codebar",
+    "description": "Non-profit initiative that facilitates the growth of a diverse tech community by running regular programming workshops.",
+    "links": [
+      {
+        "name": "Website",
+        "url": "https://codebar.io/"
+      },
+      {
+        "name": "Twitter",
+        "url": "https://twitter.com/CodebarBrighton"
+      }
+    ],
+    "image": "codebar.jpg"
+  },
+  {
+    "name": "BrightonPy",
+    "description": "Brighton and Hove Python User Group is a collection of people interested in the Python programming language and related technologies in the city of Brighton and Hove.",
+    "links": [
+      {
+        "name": "Website",
+        "url": "http://www.brightonpy.org/"
+      }
+    ],
+    "image": "brightonpylogo.png"
+  },
+  {
+    "name": "Brighton ALT.NET",
+    "description": "Brighton ALT NET is a monthly get together for anyone interested in C# and .NET development.",
+    "links": [
+      {
+        "name": "Website",
+        "url": "http://brightonalt.net/"
+      }
+    ]
+  },
+  {
+    "name": "Brighton PHP",
+    "description": "Your PHP User Group for Brighton and Sussex",
+    "links": [
+      {
+        "name": "Website",
+        "url": "http://brightonphp.org/"
+      }
+    ]
+  },
+  {
+    "name": "Brighton Ruby",
+    "description": "A group for Rubyists on the South Coast, centred on Brighton. A broad church, we're nice first, 'right' second.",
+    "links": [
+      {
+        "name": "Meetup",
+        "url": "https://www.meetup.com/Brighton-Ruby-Group/"
+      }
+    ]
+  },
+  {
+    "name": "Brighton Java",
+    "description": "Brighton Java is a group bringing together Java users, enthusiasts and learners. We’re interested in the whole world of Java – android development, server frameworks, Groovy, interesting tools, applications, Clojure, development methodologies and so on and so on – anything Java.",
+    "links": [
+      {
+        "name": "Meetup",
+        "url": "https://www.meetup.com/en-AU/Brighton-Java/"
+      }
+    ]
+  },
+  {
+    "name": "Brighton Drupal",
+    "description": "Brighton Area Drupal Association",
+    "links": [
+      {
+        "name": "Website",
+        "url": "https://groups.drupal.org/brighton"
+      },
+      {
+        "name": "Twitter",
+        "url": "https://twitter.com/badassuk"
+      }
+    ],
+    "image": "badass.png"
+  },
+  {
+    "name": "Functional Brighton",
+    "description": "Functional Brighton is a Brighton, UK meetup group that aims to bring together people interested in functional programming.",
+    "links": [
+      {
+        "name": "Meetup",
+        "url": "https://www.meetup.com/en-AU/Functional-Brighton/"
+      }
+    ],
+    "functionalbrighton.png"
+  },
+  {
+    "name": "Codeclub",
+    "description": "Code Club UK is a nationwide network of volunteers and educators who run free coding clubs for young people aged 9-13.",
+    "links": [
+      {
+        "name": "Website",
+        "url": "https://www.codeclub.org.uk/"
+      }
+    ]
+  },
+  {
+    "name": "Coder Dojo Brighton",
+    "description": "CoderDojo is a global movement of volunteers, set up to encourage kids and young people to become creators rather then just users of computers. The one rule at  CoderDojo is to ‘be cool’.",
+    "links": [
+      {
+        "name": "Website",
+        "url": "http://www.coderdojobrighton.co.uk/"
+      }
+    ]
+  },
+  {
+    "name": "Ministry of testing - Brighton and Hove",
+    "description": "The Ministry of Testing exists to advance the software testing industry in a fun, safe, professional and forward thinking way. Our meetups exist as a way to bring people together to talk and learn about good and authentic testing. We encourage everyone who is interested in making better software products to come along and participate.",
+    "links": [
+      {
+        "name": "Meetup",
+        "url": "https://www.meetup.com/en-AU/ministry-of-testing-brighton/"
+      }
+    ]
+  },
+  {
+    "name": "UX Camp Brighton",
+    "description": "An ‘unconference’ for anyone involved or interested in user experience design, user research, interaction design, information architecture, usability, accessibility and other associated fields.",
+    "links": [
+      {
+        "name": "Website",
+        "url": "https://www.uxcampbrighton.org/"
+      }
+    ]
+  },
+  {
+    "name": "UX Brighton",
+    "description": "Annual UX conference",
+    "links": [
+      {
+        "name": "Website",
+        "url": "http://uxbrighton.org.uk/"
+      }
+    ]
+  },
+  {
+    "name": "Data Visualisation Brighton",
+    "description": "We're a diverse group of designers, developers, artists, scientists, analysts etc. all with a shared interest in data visualisation.",
+    "links": [
+      {
+        "name": "Website",
+        "url": "http://www.datavisbrighton.com/"
+      }
+    ]
+  },
+  {
+    "name": "Brighton Mobile",
+    "description": "Brighton Mobile is a regular evening meetup where people come to socialise and learn with others working in mobile. Our aim is to let everyone learn from each other's successes and challenges in every area of Mobile technology.",
+    "links": [
+      {
+        "name": "Meetup",
+        "url": "https://www.meetup.com/en-AU/Brighton-Mobile/"
+      }
+    ]
+  },
+  {
+    "name": "Brighton Digital Women",
+    "description": "Brighton Digital Women is a community of people in Sussex from all sorts of professional digital backgrounds. Everyone is welcome at our relaxed, friendly meetups.",
+    "links": [
+      {
+        "name": "Website",
+        "url": "http://www.brightondigitalwomen.co.uk/"
+      }
+    ]
+  },
+  {
+    "name": "Brighton Farm",
+    "description": "The Brighton Farm is a networking group for web designers, developers and people with related new media skills who live in Brighton and the surrounding areas.",
+    "links": [
+      {
+        "name": "Website",
+        "url": "http://www.brightonfarm.com/"
+      }
+    ]
+  },
+  {
+    "name": "ProductTank",
+    "description": "ProductTank provides an opportunity for Product People in Brighton to exchange ideas and experiences about Product Design, Development and Management, Business Modelling, Metrics, User Experience and all the other things that get us excited.",
+    "links": [
+      {
+        "name": "Meetup",
+        "url": "https://www.meetup.com/en-AU/ProductTank-Brighton/"
+      }
+    ]
+  },
+  {
+    "name": "Press Fire To Win",
+    "description": "This group is for developers, artists, game designers and players - interested in independent games to chat, and find out about upcoming game-related events around Brighton and beyond.",
+    "links": [
+      {
+        "name": "Website",
+        "url": "http://www.pressfiretowin.com/"
+      },
+      {
+        "name": "Meetup",
+        "url": "https://www.meetup.com/en-AU/Press-Fire-to-Win/"
+      }
+    ],
+    "image": "pressfiretowin.jpeg"
+  },
+  {
+    "name": "Brighton Indies",
+    "description": "Brighton Indies is a friendly pub meet up for people who make (or are interested in making) games (and game-like things) in Brighton (and nearby).",
+    "links": [
+      {
+        "name": "Website",
+        "url": "http://brightonindies.com/"
+      }
+    ]
+  },
+  {
+    "name": "Brighton Indie Coffee",
+    "description": "Weekly coffee meetup for indie and solo game devs in Brighton/Hove. 9:30 AM on Tuesdays. Cafe rotates weekly.",
+    "links": [
+      {
+        "name": "Twitter",
+        "url": "https://twitter.com/IndieCoffee_BH"
+      },
+      {
+        "name": "Meetup",
+        "url": "https://www.meetup.com/en-AU/Brighton-Game-Collective/"
+      }
+    ],
+    "image": "indiecoffee.jpeg"
+  },
+  {
+    "name": "Brighton Game Collective Drinks",
+    "description": "Brighton Game Collective is a game development co-working space and community network in Brighton & Hove. This group is used to promote social events and activities organized by the Collective.",
+    "links": [
+      {
+        "name": "Meetup",
+        "url": "https://www.meetup.com/en-AU/Brighton-Game-Collective/"
+      }
+    ]
+  },
+  {
+    "name": "Brighton Cafe Scientifique",
+    "description": "Brighton Café Scientifique is Science for the Sociable! Informal talks of about 30-45 minutes are given by experts in the field, at a level accessible to all.",
+    "links": [
+      {
+        "name": "Meetup",
+        "url": "https://www.meetup.com/en-AU/Brighton-Cafe-Scientifique/"
+      }
+    ]
+  },
+  {
+    "name": "Brighton Science Festival",
+    "description": "Annual science festival",
+    "links": [
+      {
+        "name": "Website",
+        "url": "http://www.brightonscience.com/"
+      }
+    ]
+  },
+  {
+    "name": "The Brighton and Hove branch of the British Science Organisation",
+    "description": "The British Science Association (BSA) is a charity, founded in 1831.  Our vision is of a world where science is at the heart of culture and society.  Our mission is to support, grow and diversify the community of people interested and involved in science; and to strengthen their influence over science's direction and place in society.",
+    "links": [
+      {
+        "name": "Website",
+        "url": "https://www.britishscienceassociation.org/brighton-and-hove-branch"
+      }
+    ]
+  },
+  {
+    "name": "STEMbusters",
+    "description": "Informal social meet ups for those involved with STE(A)M communication (#SciComm), outreach & public engagement activities.",
+    "links": [
+      {
+        "name": "Twitter",
+        "url": "https://twitter.com/STEMbusters"
+      }
+    ]
+  },
+  {
+    "name": "Brighton Astro",
+    "description": "Brighton Astro is a place for cosmic enthusiasts from all walks of life to meet up, talk about the universe and gaze at the stars. Every month we host a FREE talk with drinks and nibbles and the opportunity to go out with our telescopes afterwards – weather permitting!",
+    "links": [
+      {
+        "name": "Website",
+        "url": "https://brightonastro.com/"
+      }
+    ]
+  },
+  {
+    "name": "Brighton MathsJam",
+    "description": "MathsJam is a monthly opportunity for like-minded self-confessed maths enthusiasts to get together in a pub and share stuff they like. Puzzles, games, problems, or just anything they think is cool or interesting. We don't have organised talks, planned activities or even strict timings - just turn up and join in.",
+    "links": [
+      {
+        "name": "Website",
+        "url": "https://mathsjam.com/cities/brighton/"
+      }
+    ]
+  },
+  {
+    "name": "Build Brighton",
+    "description": "We are an enthusiastic group of makers working on individual projects, from toys to wind turbines, and collaborating on bigger builds such as robots and a filament extruder for 3D printers.",
+    "links": [
+      {
+        "name": "Website",
+        "url": "http://buildbrighton.com/"
+      }
+    ],
+    "image": "buildbrighton.jpg"
+  },
+  {
+    "name": "MakerClub",
+    "description": "MakerClub is teaching kids to be master inventors. Partnering with universities and makerspaces we are setting new standards in STEM education (science, tech, engineering and maths) with a growing network of after-school and weekend clubs for kids aged 8-13. We teach cutting edge tech and real-world problem solving.",
+    "links": [
+      {
+        "name": "Website",
+        "url": "https://makerclub.org/"
+      }
+    ]
+  },
+  {
+    "name": "BANG",
+    "description": "The Brighton Animators Networking Group (BANG) provides an opportunity for animators to meet both online and offline and share knowledge. Anyone with an interest in animation should become a member of the BANG online social network, which includes details of their most recent meet-ups and collaborations as well as an active animation forum.",
+    "links": [
+      {
+        "name": "Website",
+        "url": "http://brightonanimators.ning.com/"
+      },
+      {
+        "name": "Wired Sussex",
+        "url": "https://www.wiredsussex.com/projects/bang.asp"
+      }
+    ],
+    "image": "bang.png"
+  },
+  {
+    "name": "Brighton Nerd Night",
+    "description": "Every month we regale our nerdy audience with three nerdish talks from some wonderful speakers. Think of us as being like TED talks but maybe not as smug (NB. someone else described us as that. No offence to TED.)",
+    "links": [
+      {
+        "name": "Website",
+        "url": "https://brighton.nerdnite.com/"
+      }
+    ]
+  },
+  {
+    "name": "Brighton Virtual Reality",
+    "description": "This group is for everyone who's interested in the current and future state of Virtual Reality. VR is now a multi-billion dollar industry, with some of the best minds on earth working on it. Let's meet up and discuss the current state of tech, where it's going, and what we can do with it.",
+    "links": [
+      {
+        "name": "Meetup",
+        "url": "https://www.meetup.com/en-AU/Brighton-Virtual-Reality/"
+      }
+    ]
+  },
+  {
+    "name": "Brighton CTO Meetup",
+    "description": "Brighton is the home of 1,500 tech companies. While they target a wide range of customer problems, they likely face similar technology challenges. Including: fund-raising, team structure, IT support, product direction, people and tech leadership, etc. This group is an opportunity for tech leaders (CTO, CIO, Head of Tech) to meet up informally and share their experience.",
+    "links": [
+      {
+        "name": "Meetup",
+        "url": "https://www.meetup.com/en-AU/Brighton-CTO-Meetup/"
+      }
+    ]
+  }
+]

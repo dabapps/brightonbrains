@@ -1,0 +1,36 @@
+<div class="col md-6">
+  <div class="content">
+    <h2>
+      <a href="{{ include.listing.links[0].url }}" title="{{ include.listing.links[0].name }}" target="_blank">{{ include.listing.name }}</a>
+    </h2>
+    <div class="left">
+      {% if include.listing.image %}
+        <img alt="{{ include.listing.name }}" src="assets/images/groups/{{ include.listing.image }}" />
+      {% else %}
+        <div class="no-image">
+          <p>We don't have an image for this meetup.</p>
+          <p>
+            If you have a related image you'd like us to use, submit an
+            <a alt="GitHub issues" href="https://github.com/dabapps/brightonbrains/issues">issue on GitHub</a>
+            with your name, link to the image and your website / Twitter so we can credit you.
+          </p>
+        </div>
+      {% endif %}
+    </div>
+    <div class="right">
+      <p>
+        {{ include.listing.description }}
+      </p>
+      {% for link in include.listing.links %}
+        <dl class="link">
+          <dt>{{ link.name }}:</dt>
+          <dd>
+            <a href="{{ link.url }}" title="{{ link.name }}" target="_blank">
+              {{ link.url }}
+            </a>
+          </dd>
+        </dl>
+      {% endfor %}
+    </div>
+  </div>
+</div>

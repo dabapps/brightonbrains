@@ -1,0 +1,67 @@
+---
+layout: default
+---
+
+<section class="section intro">
+  <div class="col sm-6 md-3">
+    <h2>Passion</h2>
+    <p>Why are you at college or university? Why are you an academic researcher? Because you have a
+      <strong>passion</strong> about your chosen field of study. Brighton is full of passionate people. You could be talking
+      to them.</p>
+  </div>
+  <div class="col sm-6 md-3">
+    <h2>Learning</h2>
+    <p>Brighton has dozens of
+      <strong>free</strong> groups and meetings, run by people who care about their subject. World-class expert speakers are
+      talking at events right on your doorstep. You could be attending them.</p>
+  </div>
+  <div class="col sm-6 md-3">
+    <h2>Belonging</h2>
+    <p>It's always good to spend time with like-minded,
+      <strong>friendly</strong> people at group meetings, or over a coffee or a pint. You could be part of the community.</p>
+  </div>
+  <div class="col sm-6 md-3">
+    <h2>Opportunity</h2>
+    <p>Brighton is full of creative and technical talent, just like you, sharing their knowledge,
+      <strong>collaborating</strong> and generating opportunities. You could be benefiting from these opportunities.</p>
+  </div>
+</section>
+
+
+<section class="section listings">
+
+  {% assign listings = site.data.listings | sort_natural: 'name' %}
+
+  {% for listing in listings %}
+    {% include listing.html listing=listing %}
+  {% endfor %}
+
+</section>
+
+<section class="section get-involved">
+  <h2 class="col">Getting involved</h2>
+  <div class="col md-6">
+    <h3>Academics, researchers and students</h3>
+    <p>If any of the groups or events on this page interest you, the easiest way to get involved is to visit their website,
+      find out when they are next holding a meeting, and go along. Many of the groups have Twitter accounts that you
+      can follow or Google Groups you can join if you'd like to join the discussion.</p>
+    <p>Secondly, please forward the link to Brighton Brains to as many of your friends, fellow students and academic colleagues
+      as you can. If you're a lecturer, tell all your students to visit the site. Post the link on Facebook and Twitter,
+      and send it out to your departmental email lists.</p>
+    <p>Finally, If you know of any other groups that should be on this page, or have any suggestions for any other improvements
+      to site, please don't hesitate to
+      <a href="mailto:office@dabapps.com" title="Email us">contact us</a>.</p>
+  </div>
+  <div class="col md-6">
+    <h3>Creative and digital community groups</h3>
+    <p>If you run or attend a meetup, event or other community group in Brighton or the surrounding areas that you think
+      should be on this site, please let us know by
+      <a href="mailto:office@dabapps.com" title="Email us">emailing us</a> with the details. Alternatively, you can create an
+      <a href="https://github.com/dabapps/brightonbrains/issues/"
+        title="Brighton Brains issues on Github">issue</a> (or, even better, fork the project and create a pull request) on
+      <a href="https://github.com/dabapps/brightonbrains/"
+        title="Brighton Brains on Github">GitHub</a>.</p>
+    <p>Please promote Brighton Brains to other group members and ask them to pass it on to any friends that might be interested.
+      If you have any suggestions for how we could improve the site, please let us know.</p>
+  </div>
+</section>

@@ -1,0 +1,19 @@
+.container {
+  @include clearfix;
+  margin: 0 auto;
+  padding: 0 $gutter-width-half;
+  width: 100%;
+  max-width: $screen-lg;
+
+  @media all and (min-width: $screen-sm) {
+    width: $screen-sm;
+  }
+
+  @media all and (min-width: $screen-md) {
+    width: $screen-md;
+  }
+
+  @media all and (min-width: $screen-lg) {
+    width: $screen-lg;
+  }
+}

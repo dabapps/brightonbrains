@@ -1,0 +1,31 @@
+.header {
+  @include clearfix;
+  background: $header-background;
+  color: $text-color-light;
+  padding: $padding-double 0;
+  margin-bottom: $margin-base;
+
+  img,
+  h1,
+  p {
+    margin: $margin-base 0;
+  }
+
+  h1,
+  p {
+    font-family: $font-family-header;
+    font-weight: $font-weight-header;
+  }
+
+  img {
+    float: left;
+    margin-right: $margin-base;
+    width: #{(133 / 4)}px;
+    height: #{(150 / 4)}px;
+
+    @media all and (min-width: $screen-sm) {
+      width: #{(133 / 2)}px;
+      height: #{(150 / 2)}px;
+    }
+  }
+}
