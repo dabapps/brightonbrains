@@ -24,6 +24,7 @@ twitter_username: brightonbrains
 github_username:  dabapps
 company_website: https://www.dabapps.com
 company_name: DabApps
+company_logo: dabapps-logo.png
 
 # Build settings
 markdown: kramdown

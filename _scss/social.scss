@@ -4,8 +4,8 @@
   .facebook,
   .twitter {
     float: left;
-    margin: $margin-base;
-    margin-left: 0;
+    margin-bottom: $margin-half;
+    margin-right: $margin-base;
 
     &:last-child {
       margin-right: 0;

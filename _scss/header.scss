@@ -5,7 +5,7 @@
   padding: $padding-double 0;
   margin-bottom: $margin-base;
 
-  img,
+  .logo,
   h1,
   p {
     margin: $margin-base 0;
@@ -17,7 +17,7 @@
     font-weight: $font-weight-header;
   }
 
-  img {
+  .logo {
     float: left;
     margin-right: $margin-base;
     width: #{(133 / 4)}px;
