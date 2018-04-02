@@ -387,5 +387,20 @@
         "url": "https://www.meetup.com/en-AU/Brighton-CTO-Meetup/"
       }
     ]
+  },
+  {
+    "name": "Curiosity Hub",
+    "description": "Curiosity Hub runs \"hands-on\" workshops exploring science, art and technology! We embrace imagination, creativity and the fun of making stuff in all our activities, including: Lego Robotics, Stop-motion Animation, Minecraft EDU, Squishy Circuits & more!",
+    "links": [
+      {
+        "name": "Website",
+        "url": "http://thecuriosityhub.com/"
+      },
+      {
+        "name": "Twitter",
+        "url": "https://twitter.com/CuriosityHub"
+      }
+    ],
+    "image": "curiosityhub.png"
   }
 ]
