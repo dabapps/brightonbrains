@@ -84,8 +84,8 @@
       "development",
       "csharp",
       "dotnet",
-      "visualstudio",
-      "asp"
+      "aspnet",
+      "visualstudio"
     ],
     "when": {
       "date": "First Tuesday of each month",
