@@ -53,8 +53,13 @@
     }
 
     dl {
+      margin: $margin-half auto;
       display: block;
       width: 100%;
+    }
+
+    dt {
+      font-weight: 600;
     }
 
     dt,
@@ -66,15 +71,12 @@
     }
 
     .link {
-      margin: $margin-half 0;
       text-overflow: ellipsis;
       white-space: nowrap;
       overflow: hidden;
     }
 
     .tags {
-      margin: $margin-base auto;
-
       ul {
         display: inline;
         list-style: none;
