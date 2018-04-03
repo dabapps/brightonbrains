@@ -21,6 +21,8 @@
       <p>
         {{ include.listing.description }}
       </p>
+    </div>
+    <div class="info">
       {% for link in include.listing.links %}
         <dl class="link">
           <dt>{{ link.name }}:</dt>
@@ -31,6 +33,23 @@
           </dd>
         </dl>
       {% endfor %}
+      {% if include.listing.tags %}
+        <hr />
+        <dl class="tags">
+          <dt>
+            Tags:
+          </dt>
+          <dd>
+            <ul>
+              {% for tag in include.listing.tags %}
+                <li>
+                  <a>{{ tag }}</a>
+                </li>
+              {% endfor %}
+            </ul>
+          </dd>
+        </dl>
+      {% endif %}
     </div>
   </div>
 </div>

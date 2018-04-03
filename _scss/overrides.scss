@@ -78,3 +78,9 @@ h2 {
 h1 {
   font-size: $font-size-base * 2;
 }
+
+hr {
+  margin: $margin-base auto;
+  border: none;
+  border-bottom: 1px solid $hr-color;
+}
