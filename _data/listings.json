@@ -78,10 +78,18 @@
       }
     ],
     "tags": [
+      "monthly",
       "development",
       "csharp",
-      "dotnet"
-    ]
+      "dotnet",
+      "visualstudio",
+      "asp"
+    ],
+    "when": {
+      "date": "First Tuesday of each month",
+      "from": "7:30pm",
+      "to": "9:30pm"
+    }
   },
   {
     "name": "Brighton PHP",
