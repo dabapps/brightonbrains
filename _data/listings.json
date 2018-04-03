@@ -22,7 +22,11 @@
       "development",
       "javascript",
       "web"
-    ]
+    ],
+    "when": {
+      "date": "First Thursday of each month",
+      "from": "7:15pm"
+    }
   },
   {
     "name": "codebar",
@@ -43,7 +47,11 @@
       "development",
       "learning",
       "web"
-    ]
+    ],
+    "when": {
+      "date": "Each week",
+      "from": "6:30pm"
+    }
   },
   {
     "name": "BrightonPy",
@@ -420,7 +428,11 @@
         "name": "Website",
         "url": "https://mathsjam.com/cities/brighton/"
       }
-    ]
+    ],
+    "when": {
+      "date": "Second-to-last Thursday of each month",
+      "from": "7:00pm"
+    }
   },
   {
     "name": "Build Brighton",
