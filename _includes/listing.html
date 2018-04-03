@@ -29,7 +29,7 @@
             When:
           </dt>
           <dd>
-            {{ include.listing.when.date }}{% if include.listing.when.from %}, from {{ include.listing.when.from }}{% endif %}{% if include.listing.when.to %} to {{ include.listing.when.to }}{% endif %}
+            {{ include.listing.when.date }}{% if include.listing.when.from %}, from <span class="badge">{{ include.listing.when.from }}</span>{% endif %}{% if include.listing.when.to %} to <span class="badge">{{ include.listing.when.to }}</span>{% endif %}
           </dd>
         </dl>
         <hr />
@@ -54,7 +54,7 @@
             <ul>
               {% for tag in include.listing.tags %}
                 <li>
-                  <a>{{ tag }}</a>
+                  <a class="badge">{{ tag }}</a>
                 </li>
               {% endfor %}
             </ul>

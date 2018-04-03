@@ -76,6 +76,12 @@
       overflow: hidden;
     }
 
+    .badge {
+      padding: 0 $padding-half;
+      background-color: $tag-background;
+      border-radius: $border-radius-base;
+    }
+
     .tags {
       ul {
         display: inline;
@@ -86,12 +92,6 @@
         li {
           display: inline;
           white-space: nowrap;
-
-          a {
-            padding: 0 $padding-half;
-            background-color: $tag-background;
-            border-radius: $border-radius-base;
-          }
 
           &::after {
             content: ', ';
