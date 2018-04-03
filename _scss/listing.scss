@@ -12,6 +12,8 @@
 
   .content {
     @include clearfix;
+    display: flex;
+    flex-direction: column;
     width: 100%;
     background-color: $listing-background;
     padding: 0 $padding-base;
@@ -31,6 +33,12 @@
       }
     }
 
+    .intro,
+    .info {
+      @include clearfix;
+      flex: 1;
+    }
+
     .left {
       width: $listing-left-width;
       float: left;
@@ -47,9 +55,11 @@
     }
 
     .info {
-      @include clearfix;
       font-size: $font-size-base * 0.9;
       line-height: $line-height-base * 1.2;
+      padding: 0 $padding-base;
+      margin: $margin-base -$padding-base 0 -$padding-base;
+      background-color: $info-background;
     }
 
     dl {
@@ -70,19 +80,14 @@
       vertical-align: middle;
     }
 
-    .link {
-      text-overflow: ellipsis;
-      white-space: nowrap;
-      overflow: hidden;
-    }
-
     .badge {
       padding: 0 $padding-half;
       background-color: $badge-background;
       border-radius: $border-radius-base;
     }
 
-    .tags {
+    .tags,
+    .links {
       ul {
         display: inline;
         list-style: none;
