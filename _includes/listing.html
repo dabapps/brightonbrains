@@ -1,36 +1,63 @@
 <div class="col md-6">
   <div class="content">
-    <h2>
-      <a href="{{ include.listing.links[0].url }}" title="{{ include.listing.links[0].name }}" target="_blank">{{ include.listing.name }}</a>
-    </h2>
-    <div class="left">
-      {% if include.listing.image %}
-        <img alt="{{ include.listing.name }}" src="assets/images/groups/{{ include.listing.image }}" />
-      {% else %}
-        <div class="no-image">
-          <p>We don't have an image for this meetup.</p>
-          <p>
-            If you have a related image you'd like us to use, submit an
-            <a alt="GitHub issues" href="https://github.com/dabapps/brightonbrains/issues">issue on GitHub</a>
-            with your name, link to the image and your website / Twitter so we can credit you.
-          </p>
-        </div>
-      {% endif %}
+    <div class="intro">
+      <h2>
+        <ul class="links">
+          {% for link in include.listing.links %}
+            <li>
+              <a href="{{ link.url }}" title="{{ link.name }}" target="_blank">
+                {% if site.social_icons contains link.name %}
+                  {% include {{ link.name | replace: " ", "-" | downcase | prepend: 'svg/' | append: '.svg' }} %}
+                {% else %}
+                  {{ link.name }}
+                {% endif %}
+              </a>
+            </li>
+          {% endfor %}
+        </ul>
+        <a href="{{ include.listing.links[0].url }}" title="{{ include.listing.links[0].name }}" target="_blank">{{ include.listing.name }}</a>
+      </h2>
+      <div class="left">
+        {% if include.listing.image %}
+          <img alt="{{ include.listing.name }}" src="assets/images/groups/{{ include.listing.image }}" />
+        {% else %}
+          <div class="no-image">
+            <p>We don't have an image for this meetup.</p>
+            <p>
+              If you have a related image you'd like us to use, submit a
+              <a title="Brighton Brains on Github" href="{{ site.github }}" target="_blank">pull request on GitHub</a>,
+              <a title="Brighton Brains issues on Github" href="{{ site.github }}issues">open an issue</a> or
+              <a title="Email us" href="mailto:{{ site.email }}">email us</a>.
+            </p>
+          </div>
+        {% endif %}
+      </div>
+      <div class="right">
+        <p>
+          {{ include.listing.description }}
+        </p>
+        {% if include.listing.tags %}
+          <ul class="tags">
+            {% for tag in include.listing.tags %}
+              <li>
+                <a class="badge">{{ tag }}</a>
+              </li>
+            {% endfor %}
+          </ul>
+        {% endif %}
+      </div>
     </div>
-    <div class="right">
-      <p>
-        {{ include.listing.description }}
-      </p>
-      {% for link in include.listing.links %}
-        <dl class="link">
-          <dt>{{ link.name }}:</dt>
-          <dd>
-            <a href="{{ link.url }}" title="{{ link.name }}" target="_blank">
-              {{ link.url }}
-            </a>
-          </dd>
-        </dl>
-      {% endfor %}
-    </div>
+    {% if include.listing.when %}
+      <div class="info">
+          <dl>
+            <dt>
+              When:
+            </dt>
+            <dd>
+              {{ include.listing.when.date }}{% if include.listing.when.from %}, from <span class="badge">{{ include.listing.when.from }}</span>{% endif %}{% if include.listing.when.to %} to <span class="badge">{{ include.listing.when.to }}</span>{% endif %}
+            </dd>
+          </dl>
+      </div>
+    {% endif %}
   </div>
 </div>

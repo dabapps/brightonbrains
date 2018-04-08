@@ -12,6 +12,8 @@
 
   .content {
     @include clearfix;
+    display: flex;
+    flex-direction: column;
     width: 100%;
     background-color: $listing-background;
     padding: 0 $padding-base;
@@ -31,6 +33,19 @@
       }
     }
 
+    .intro,
+    .info {
+      @include clearfix;
+    }
+
+    .intro {
+      flex-grow: 1;
+    }
+
+    .info {
+      flex-grow: 0;
+    }
+
     .left {
       width: $listing-left-width;
       float: left;
@@ -46,22 +61,85 @@
       }
     }
 
-    .link {
-      @include clearfix;
-      display: block;
-      width: 100%;
+    .info {
       font-size: $font-size-base * 0.9;
       line-height: $line-height-base * 1.2;
-      margin: $margin-half 0;
-      text-overflow: ellipsis;
-      white-space: nowrap;
-      overflow: hidden;
+      padding: 0 $padding-base;
+      margin: $margin-base -$padding-base 0 -$padding-base;
+      background-color: $info-background;
+      border-top: $info-border;
+    }
 
-      dt,
-      dd {
+    dl {
+      margin: $margin-half auto;
+      display: block;
+      width: 100%;
+    }
+
+    dt {
+      font-weight: 600;
+    }
+
+    dt,
+    dd {
+      display: inline;
+      margin: 0;
+      padding: 0;
+      vertical-align: middle;
+    }
+
+    .badge {
+      padding: 0 $padding-half;
+      background-color: $badge-background;
+      border-radius: $border-radius-base;
+    }
+
+    svg {
+      display: inline-block;
+      vertical-align: text-top;
+      width: 20px;
+      height: 20px;
+      transition: ease-in-out 0.1s transform;
+    }
+
+    a:hover svg {
+      transform: scale(1.1, 1.1);
+    }
+
+    ul {
+      display: inline;
+      list-style: none;
+      padding: 0;
+      margin: 0;
+
+      li {
         display: inline;
-        margin: 0;
-        padding: 0;
+      }
+    }
+
+    .links {
+      float: right;
+
+      a {
+        text-decoration: none;
+      }
+    }
+
+    .tags {
+      display: block;
+      margin: $margin-base auto;
+      font-size: $font-size-base * 0.8;
+
+      li {
+        white-space: nowrap;
+
+        &::after {
+          content: ', ';
+        }
+
+        &:last-child::after {
+          content: none;
+        }
       }
     }
   }

@@ -16,7 +16,18 @@
         "url": "https://youtube.com/AsyncBrighton"
       }
     ],
-    "image": "async.png"
+    "image": "async.png",
+    "tags": [
+      "monthly",
+      "development",
+      "javascript",
+      "web"
+    ],
+    "when": {
+      "date": "First Thursday of each month",
+      "from": "7:15pm",
+      "to": "9:30pm"
+    }
   },
   {
     "name": "codebar",
@@ -31,7 +42,18 @@
         "url": "https://twitter.com/CodebarBrighton"
       }
     ],
-    "image": "codebar.jpg"
+    "image": "codebar.jpg",
+    "tags": [
+      "weekly",
+      "development",
+      "learning",
+      "web"
+    ],
+    "when": {
+      "date": "Each week",
+      "from": "6:30pm",
+      "to": "9:00pm"
+    }
   },
   {
     "name": "BrightonPy",
@@ -42,7 +64,11 @@
         "url": "http://www.brightonpy.org/"
       }
     ],
-    "image": "brightonpylogo.png"
+    "image": "brightonpylogo.png",
+    "tags": [
+      "development",
+      "python"
+    ]
   },
   {
     "name": "Brighton ALT.NET",
@@ -52,7 +78,20 @@
         "name": "Website",
         "url": "http://brightonalt.net/"
       }
-    ]
+    ],
+    "tags": [
+      "monthly",
+      "development",
+      "csharp",
+      "dotnet",
+      "aspnet",
+      "visualstudio"
+    ],
+    "when": {
+      "date": "First Tuesday of each month",
+      "from": "7:30pm",
+      "to": "9:30pm"
+    }
   },
   {
     "name": "Brighton PHP",
@@ -62,6 +101,11 @@
         "name": "Website",
         "url": "http://brightonphp.org/"
       }
+    ],
+    "tags": [
+      "development",
+      "web",
+      "php"
     ]
   },
   {
@@ -72,6 +116,10 @@
         "name": "Meetup",
         "url": "https://www.meetup.com/Brighton-Ruby-Group/"
       }
+    ],
+    "tags": [
+      "development",
+      "ruby"
     ]
   },
   {
@@ -82,6 +130,10 @@
         "name": "Meetup",
         "url": "https://www.meetup.com/en-AU/Brighton-Java/"
       }
+    ],
+    "tags": [
+      "development",
+      "java"
     ]
   },
   {
@@ -97,7 +149,11 @@
         "url": "https://twitter.com/badassuk"
       }
     ],
-    "image": "badass.png"
+    "image": "badass.png",
+    "tags": [
+      "development",
+      "drupal"
+    ]
   },
   {
     "name": "Functional Brighton",
@@ -108,7 +164,10 @@
         "url": "https://www.meetup.com/en-AU/Functional-Brighton/"
       }
     ],
-    "functionalbrighton.png"
+    "image": "functionalbrighton.png",
+    "tags": [
+      "development"
+    ]
   },
   {
     "name": "Codeclub",
@@ -118,6 +177,10 @@
         "name": "Website",
         "url": "https://www.codeclub.org.uk/"
       }
+    ],
+    "tags": [
+      "development",
+      "learning"
     ]
   },
   {
@@ -128,6 +191,10 @@
         "name": "Website",
         "url": "http://www.coderdojobrighton.co.uk/"
       }
+    ],
+    "tags": [
+      "development",
+      "learning"
     ]
   },
   {
@@ -138,6 +205,10 @@
         "name": "Meetup",
         "url": "https://www.meetup.com/en-AU/ministry-of-testing-brighton/"
       }
+    ],
+    "tags": [
+      "development",
+      "testing"
     ]
   },
   {
@@ -148,6 +219,10 @@
         "name": "Website",
         "url": "https://www.uxcampbrighton.org/"
       }
+    ],
+    "tags": [
+      "design",
+      "ux"
     ]
   },
   {
@@ -158,6 +233,10 @@
         "name": "Website",
         "url": "http://uxbrighton.org.uk/"
       }
+    ],
+    "tags": [
+      "design",
+      "ux"
     ]
   },
   {
@@ -168,6 +247,11 @@
         "name": "Website",
         "url": "http://www.datavisbrighton.com/"
       }
+    ],
+    "tags": [
+      "design",
+      "development",
+      "data"
     ]
   },
   {
@@ -178,6 +262,11 @@
         "name": "Meetup",
         "url": "https://www.meetup.com/en-AU/Brighton-Mobile/"
       }
+    ],
+    "tags": [
+      "design",
+      "development",
+      "mobile"
     ]
   },
   {
@@ -188,6 +277,10 @@
         "name": "Website",
         "url": "http://www.brightondigitalwomen.co.uk/"
       }
+    ],
+    "tags": [
+      "design",
+      "development"
     ]
   },
   {
@@ -198,6 +291,11 @@
         "name": "Website",
         "url": "http://www.brightonfarm.com/"
       }
+    ],
+    "tags": [
+      "design",
+      "development",
+      "freelance"
     ]
   },
   {
@@ -223,7 +321,12 @@
         "url": "https://www.meetup.com/en-AU/Press-Fire-to-Win/"
       }
     ],
-    "image": "pressfiretowin.jpeg"
+    "image": "pressfiretowin.jpeg",
+    "tags": [
+      "design",
+      "development",
+      "games"
+    ]
   },
   {
     "name": "Brighton Indies",
@@ -233,6 +336,11 @@
         "name": "Website",
         "url": "http://brightonindies.com/"
       }
+    ],
+    "tags": [
+      "design",
+      "development",
+      "games"
     ]
   },
   {
@@ -248,7 +356,12 @@
         "url": "https://www.meetup.com/en-AU/Brighton-Game-Collective/"
       }
     ],
-    "image": "indiecoffee.jpeg"
+    "image": "indiecoffee.jpeg",
+    "tags": [
+      "design",
+      "development",
+      "games"
+    ]
   },
   {
     "name": "Brighton Game Collective Drinks",
@@ -258,6 +371,11 @@
         "name": "Meetup",
         "url": "https://www.meetup.com/en-AU/Brighton-Game-Collective/"
       }
+    ],
+    "tags": [
+      "design",
+      "development",
+      "games"
     ]
   },
   {
@@ -320,7 +438,11 @@
         "name": "Website",
         "url": "https://mathsjam.com/cities/brighton/"
       }
-    ]
+    ],
+    "when": {
+      "date": "Second-to-last Thursday of each month",
+      "from": "7:00pm"
+    }
   },
   {
     "name": "Build Brighton",
@@ -349,14 +471,14 @@
     "links": [
       {
         "name": "Website",
-        "url": "http://brightonanimators.ning.com/"
-      },
-      {
-        "name": "Wired Sussex",
         "url": "https://www.wiredsussex.com/projects/bang.asp"
       }
     ],
-    "image": "bang.png"
+    "image": "bang.png",
+    "tags": [
+      "design",
+      "animation"
+    ]
   },
   {
     "name": "Brighton Nerd Night",
