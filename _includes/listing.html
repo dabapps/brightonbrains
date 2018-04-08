@@ -2,6 +2,19 @@
   <div class="content">
     <div class="intro">
       <h2>
+        <ul class="links">
+          {% for link in include.listing.links %}
+            <li>
+              <a href="{{ link.url }}" title="{{ link.name }}" target="_blank">
+                {% if site.social_icons contains link.name %}
+                  {% include {{ link.name | replace: " ", "-" | downcase | prepend: 'svg/' | append: '.svg' }} %}
+                {% else %}
+                  {{ link.name }}
+                {% endif %}
+              </a>
+            </li>
+          {% endfor %}
+        </ul>
         <a href="{{ include.listing.links[0].url }}" title="{{ include.listing.links[0].name }}" target="_blank">{{ include.listing.name }}</a>
       </h2>
       <div class="left">
@@ -23,55 +36,28 @@
         <p>
           {{ include.listing.description }}
         </p>
-      </div>
-    </div>
-    <div class="info">
-      <dl class="links">
-        <dt>
-          Links:
-        </dt>
-        <dd>
-          <ul>
-            {% for link in include.listing.links %}
+        {% if include.listing.tags %}
+          <ul class="tags">
+            {% for tag in include.listing.tags %}
               <li>
-                <a href="{{ link.url }}" title="{{ link.name }}" target="_blank">
-                  {{ link.name }}
-                </a>
+                <a class="badge">{{ tag }}</a>
               </li>
             {% endfor %}
           </ul>
-        </dd>
-      </dl>
-      {% if include.listing.tags %}
-        <dl class="tags">
+        {% endif %}
+      </div>
+    </div>
+    <div class="info">
+      {% if include.listing.when %}
+        <dl>
           <dt>
-            Tags:
+            When:
           </dt>
-          <dd>
-            <ul>
-              {% for tag in include.listing.tags %}
-                <li>
-                  <a class="badge">{{ tag }}</a>
-                </li>
-              {% endfor %}
-            </ul>
-          </dd>
-        </dl>
-      {% endif %}
-      <dl>
-        <dt>
-          When:
-        </dt>
-        {% if include.listing.when %}
           <dd>
             {{ include.listing.when.date }}{% if include.listing.when.from %}, from <span class="badge">{{ include.listing.when.from }}</span>{% endif %}{% if include.listing.when.to %} to <span class="badge">{{ include.listing.when.to }}</span>{% endif %}
           </dd>
-        {% else %}
-          <dd>
-            ¯\_(ツ)_/¯ We're not sure. If you know, <a title="Email us" href="mailto:{{ site.email }}">drop us an email</a>.
-          </dd>
-        {% endif %}
-      </dl>
+        </dl>
+      {% endif %}
     </div>
   </div>
 </div>

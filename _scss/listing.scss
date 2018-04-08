@@ -36,7 +36,14 @@
     .intro,
     .info {
       @include clearfix;
-      flex: 1;
+    }
+
+    .intro {
+      flex-grow: 1;
+    }
+
+    .info {
+      flex-grow: 0;
     }
 
     .left {
@@ -60,6 +67,7 @@
       padding: 0 $padding-base;
       margin: $margin-base -$padding-base 0 -$padding-base;
       background-color: $info-background;
+      border-top: $info-border;
     }
 
     dl {
@@ -86,25 +94,51 @@
       border-radius: $border-radius-base;
     }
 
-    .tags,
-    .links {
-      ul {
+    svg {
+      display: inline-block;
+      vertical-align: text-top;
+      width: 20px;
+      height: 20px;
+      transition: ease-in-out 0.1s transform;
+    }
+
+    a:hover svg {
+      transform: scale(1.1, 1.1);
+    }
+
+    ul {
+      display: inline;
+      list-style: none;
+      padding: 0;
+      margin: 0;
+
+      li {
         display: inline;
-        list-style: none;
-        padding: 0;
-        margin: 0;
+      }
+    }
 
-        li {
-          display: inline;
-          white-space: nowrap;
+    .links {
+      float: right;
 
-          &::after {
-            content: ', ';
-          }
+      a {
+        text-decoration: none;
+      }
+    }
 
-          &:last-child::after {
-            content: none;
-          }
+    .tags {
+      display: block;
+      margin: $margin-base auto;
+      font-size: $font-size-base * 0.8;
+
+      li {
+        white-space: nowrap;
+
+        &::after {
+          content: ', ';
+        }
+
+        &:last-child::after {
+          content: none;
         }
       }
     }
