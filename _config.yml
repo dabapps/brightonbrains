@@ -36,6 +36,13 @@ plugins:
 sass:
   sass_dir: _scss
 
+social_icons:
+  - Facebook
+  - Twitter
+  - Meetup
+  - Website
+  - YouTube
+
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
 # to override the default setting.
