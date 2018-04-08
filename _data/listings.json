@@ -425,6 +425,24 @@
       "hackathon",
       "development"
     ]
+  },
+  {
+    "name": "Brighton / Worthing Angular 2+",
+    "description": "We are a free local meetup group of Angular 2+ enthusiasts; un-sponsored and community driven. We hold workshops and discuss current Angular topics. All levels are welcome. Our members comprise beginners and experts. We're fanatical about all things Angular, and we welcome anyone who wants to learn more.",
+    "links": [
+      {
+        "name": "Website",
+        "url": "https://angular2bes.firebaseapp.com"
+      },
+      {
+        "name": "Meetup",
+        "url": "https://www.meetup.com/Brighton-Worthing-Angular2-Meetup/"
+      }
+    ],
+    "tags": [
+      "development",
+      "javascript",
+      "angular"
     ]
   }
 ]
