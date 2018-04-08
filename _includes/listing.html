@@ -47,17 +47,17 @@
         {% endif %}
       </div>
     </div>
-    <div class="info">
-      {% if include.listing.when %}
-        <dl>
-          <dt>
-            When:
-          </dt>
-          <dd>
-            {{ include.listing.when.date }}{% if include.listing.when.from %}, from <span class="badge">{{ include.listing.when.from }}</span>{% endif %}{% if include.listing.when.to %} to <span class="badge">{{ include.listing.when.to }}</span>{% endif %}
-          </dd>
-        </dl>
-      {% endif %}
-    </div>
+    {% if include.listing.when %}
+      <div class="info">
+          <dl>
+            <dt>
+              When:
+            </dt>
+            <dd>
+              {{ include.listing.when.date }}{% if include.listing.when.from %}, from <span class="badge">{{ include.listing.when.from }}</span>{% endif %}{% if include.listing.when.to %} to <span class="badge">{{ include.listing.when.to }}</span>{% endif %}
+            </dd>
+          </dl>
+      </div>
+    {% endif %}
   </div>
 </div>
