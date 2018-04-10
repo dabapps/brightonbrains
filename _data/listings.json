@@ -439,6 +439,7 @@
         "url": "https://mathsjam.com/cities/brighton/"
       }
     ],
+    "image": "mathsjam.png",
     "when": {
       "date": "Second-to-last Thursday of each month",
       "from": "7:00pm"
