@@ -441,7 +441,7 @@
     ],
     "image": "mathsjam.png",
     "when": {
-      "date": "Second-to-last Thursday of each month",
+      "date": "Second-to-last Tuesday of each month",
       "from": "7:00pm"
     }
   },
