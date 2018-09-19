@@ -1,0 +1,15 @@
+.badge a {
+  display: block;
+  margin-bottom: $margin-base;
+}
+
+.badge textarea {
+  border: 0;
+  border-radius: $border-radius-base;
+  box-shadow: $shadow-soft;
+  display: block;
+  font-family: monospace;
+  font-size: $font-size-small;
+  padding: $padding-base;
+  width: 100%;
+}

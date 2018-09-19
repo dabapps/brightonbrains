@@ -1,25 +1,10 @@
-html,
-body {
-  height: 100%;
-}
-
-.wrapper {
-  position: relative;
-  min-height: 100%;
-  padding-bottom: 200px;
-
-  @media all and (min-width: $screen-sm) {
-    padding-bottom: 150px;
-  }
-
-  @media all and (min-width: $screen-lg) {
-    padding-bottom: 120px;
-  }
-}
-
 .footer {
-  position: absolute;
-  left: 0;
-  bottom: 0;
-  width: 100%;
+  background: $header-background;
+  color: $text-color-light;
+  padding: $padding-double 0;
+}
+
+.footer a {
+  color: $text-color-light;
+  text-decoration: underline;
 }

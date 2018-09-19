@@ -1,0 +1,20 @@
+.icons {
+  text-align: right;
+
+  @media all and (min-width: $screen-sm) {
+    float: right;
+  }
+
+  .icon {
+    margin-left: $margin-half;
+    text-decoration: none;
+  }
+
+  svg {
+    display: inline-block;
+    vertical-align: text-top;
+    width: 30px;
+    height: 30px;
+    transition: ease-in-out 0.1s transform;
+  }
+}
