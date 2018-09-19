@@ -50,7 +50,7 @@
       "web"
     ],
     "when": {
-      "date": "Each week",
+      "date": "Every Tuesday",
       "from": "6:30pm",
       "to": "9:00pm"
     }
@@ -62,6 +62,10 @@
       {
         "name": "Website",
         "url": "http://www.brightonpy.org/"
+      },
+      {
+        "name": "Twitter",
+        "url": "https://twitter.com/brightonpy"
       }
     ],
     "image": "brightonpylogo.png",
@@ -100,13 +104,22 @@
       {
         "name": "Website",
         "url": "http://brightonphp.org/"
+      },
+      {
+        "name": "Twitter",
+        "url": "https://twitter.com/brightonphp"
       }
     ],
     "tags": [
       "development",
       "web",
       "php"
-    ]
+    ],
+    "image": "php.png",
+    "when": {
+      "date": "Third Monday of each month",
+      "from": "7:00pm"
+    }
   },
   {
     "name": "Brighton Ruby",
@@ -128,13 +141,14 @@
     "links": [
       {
         "name": "Meetup",
-        "url": "https://www.meetup.com/en-AU/Brighton-Java/"
+        "url": "https://www.meetup.com/Brighton-Java/"
       }
     ],
     "tags": [
       "development",
       "java"
-    ]
+    ],
+    "image": "java.jpg"
   },
   {
     "name": "Brighton Drupal",
@@ -153,7 +167,12 @@
     "tags": [
       "development",
       "drupal"
-    ]
+    ],
+    "when": {
+      "date": "Third Tuesday of the month",
+      "from":"7pm",
+      "to": "9pm"
+    }
   },
   {
     "name": "Functional Brighton",
@@ -161,7 +180,7 @@
     "links": [
       {
         "name": "Meetup",
-        "url": "https://www.meetup.com/en-AU/Functional-Brighton/"
+        "url": "https://www.meetup.com/Functional-Brighton/"
       }
     ],
     "image": "functionalbrighton.png",
@@ -181,7 +200,8 @@
     "tags": [
       "development",
       "learning"
-    ]
+    ],
+    "image": "codeclub.jpg"
   },
   {
     "name": "Coder Dojo Brighton",
@@ -203,13 +223,14 @@
     "links": [
       {
         "name": "Meetup",
-        "url": "https://www.meetup.com/en-AU/ministry-of-testing-brighton/"
+        "url": "https://www.meetup.com/ministry-of-testing-brighton/"
       }
     ],
     "tags": [
       "development",
       "testing"
-    ]
+    ],
+    "image": "ministry.jpg"
   },
   {
     "name": "UX Camp Brighton",
@@ -223,7 +244,8 @@
     "tags": [
       "design",
       "ux"
-    ]
+    ],
+    "image": "uxcamp.jpg"
   },
   {
     "name": "UX Brighton",
@@ -237,7 +259,8 @@
     "tags": [
       "design",
       "ux"
-    ]
+    ],
+    "image": "ux.jpg"
   },
   {
     "name": "Data Visualisation Brighton",
@@ -246,13 +269,18 @@
       {
         "name": "Website",
         "url": "http://www.datavisbrighton.com/"
+      },
+      {
+        "name": "Twitter",
+        "url": "https://twitter.com/datavisbrighton"
       }
     ],
     "tags": [
       "design",
       "development",
       "data"
-    ]
+    ],
+    "image": "datavis.jpg"
   },
   {
     "name": "Brighton Mobile",
@@ -260,14 +288,15 @@
     "links": [
       {
         "name": "Meetup",
-        "url": "https://www.meetup.com/en-AU/Brighton-Mobile/"
+        "url": "https://www.meetup.com/Brighton-Mobile/"
       }
     ],
     "tags": [
       "design",
       "development",
       "mobile"
-    ]
+    ],
+    "image": "mobile.jpg"
   },
   {
     "name": "Brighton Digital Women",
@@ -276,12 +305,17 @@
       {
         "name": "Website",
         "url": "http://www.brightondigitalwomen.co.uk/"
+      },
+      {
+        "name": "Twitter",
+        "url": "https://twitter.com/BTNDigitalWomen"
       }
     ],
     "tags": [
       "design",
       "development"
-    ]
+    ],
+    "image": "bdw.png"
   },
   {
     "name": "Brighton Farm",
@@ -290,13 +324,24 @@
       {
         "name": "Website",
         "url": "http://www.brightonfarm.com/"
+      },
+      {
+        "name": "Twitter",
+        "url": "https://twitter.com/brightonfarm"
       }
     ],
     "tags": [
+      "weekly",
       "design",
       "development",
       "freelance"
-    ]
+    ],
+    "image": "farm.jpg",
+    "when": {
+      "date": "Every Wednesday",
+      "from": "8pm",
+      "to": "11pm"
+    }
   },
   {
     "name": "ProductTank",
@@ -304,29 +349,10 @@
     "links": [
       {
         "name": "Meetup",
-        "url": "https://www.meetup.com/en-AU/ProductTank-Brighton/"
-      }
-    ]
-  },
-  {
-    "name": "Press Fire To Win",
-    "description": "This group is for developers, artists, game designers and players - interested in independent games to chat, and find out about upcoming game-related events around Brighton and beyond.",
-    "links": [
-      {
-        "name": "Website",
-        "url": "http://www.pressfiretowin.com/"
-      },
-      {
-        "name": "Meetup",
-        "url": "https://www.meetup.com/en-AU/Press-Fire-to-Win/"
+        "url": "https://www.meetup.com/ProductTank-Brighton/"
       }
     ],
-    "image": "pressfiretowin.jpeg",
-    "tags": [
-      "design",
-      "development",
-      "games"
-    ]
+    "image": "producttank.jpg"
   },
   {
     "name": "Brighton Indies",
@@ -335,13 +361,22 @@
       {
         "name": "Website",
         "url": "http://brightonindies.com/"
+      },
+      {
+        "name": "Facebook",
+        "url": "https://www.facebook.com/pages/Brighton-Indies/612985072062246"
+      },
+      {
+        "name": "Twitter",
+        "url": "https://twitter.com/BrightonIndies"
       }
     ],
     "tags": [
       "design",
       "development",
       "games"
-    ]
+    ],
+    "image": "indies.png"
   },
   {
     "name": "Brighton Indie Coffee",
@@ -353,7 +388,7 @@
       },
       {
         "name": "Meetup",
-        "url": "https://www.meetup.com/en-AU/Brighton-Game-Collective/"
+        "url": "https://www.meetup.com/Brighton-Game-Collective/"
       }
     ],
     "image": "indiecoffee.jpeg",
@@ -369,7 +404,7 @@
     "links": [
       {
         "name": "Meetup",
-        "url": "https://www.meetup.com/en-AU/Brighton-Game-Collective/"
+        "url": "https://www.meetup.com/Brighton-Game-Collective/"
       }
     ],
     "tags": [
@@ -384,9 +419,20 @@
     "links": [
       {
         "name": "Meetup",
-        "url": "https://www.meetup.com/en-AU/Brighton-Cafe-Scientifique/"
+        "url": "https://www.meetup.com/Brighton-Cafe-Scientifique/"
       }
-    ]
+    ],
+    "tags": [
+      "monthly",
+      "science",
+      "stem"
+    ],
+    "when": {
+      "date": "Second Wednesday of each month",
+      "from": "7:30pm",
+      "to": "9:30pm"
+    },
+    "image": "cafesci.jpg"
   },
   {
     "name": "Brighton Science Festival",
@@ -395,7 +441,17 @@
       {
         "name": "Website",
         "url": "http://www.brightonscience.com/"
+      },
+      {
+        "name": "Twitter",
+        "url": "https://twitter.com/brightonscience"
       }
+    ],
+    "image": "festival.jpg",
+    "tags": [
+      "annual",
+      "science",
+      "stem"
     ]
   },
   {
@@ -406,7 +462,8 @@
         "name": "Website",
         "url": "https://www.britishscienceassociation.org/brighton-and-hove-branch"
       }
-    ]
+    ],
+    "image": "bsa.png"
   },
   {
     "name": "STEMbusters",
@@ -426,9 +483,32 @@
       {
         "name": "Website",
         "url": "https://brightonastro.com/"
+      },
+      {
+        "name": "Twitter",
+        "url": "https://twitter.com/astrobrighton"
+      },
+      {
+        "name": "Facebook",
+        "url": "https://facebook.com/brightonastro"
+      },
+      {
+        "name": "Meetup",
+        "url": "https://meetup.com/Brighton-Astro/"
       }
     ],
-    "image": "astro.jpg"
+    "image": "astro.jpg",
+    "tags": [
+      "monthly",
+      "astronomy",
+      "science",
+      "stem"
+    ],
+    "when": {
+      "date": "Last Tuesday of each month",
+      "from": "7pm",
+      "to": "9:30pm"
+    }
   },
   {
     "name": "Brighton MathsJam",
@@ -437,13 +517,22 @@
       {
         "name": "Website",
         "url": "https://mathsjam.com/cities/brighton/"
+      },
+      {
+        "name": "Twitter",
+        "url": "https://twitter.com/BTNMathsJam"
       }
     ],
     "image": "mathsjam.png",
     "when": {
       "date": "Second-to-last Tuesday of each month",
       "from": "7:00pm"
-    }
+    },
+    "tags": [
+      "monthly",
+      "maths",
+      "stem"
+    ]
   },
   {
     "name": "Build Brighton",
@@ -452,6 +541,14 @@
       {
         "name": "Website",
         "url": "http://buildbrighton.com/"
+      },
+      {
+        "name": "Twitter",
+        "url": "https://twitter.com/BuildBrighton/"
+      },
+      {
+        "name": "Facebook",
+        "url": "https://www.facebook.com/BuildBrighton/"
       }
     ],
     "image": "buildbrighton.jpg"
@@ -462,9 +559,14 @@
     "links": [
       {
         "name": "Website",
-        "url": "https://makerclub.org/"
+        "url": "https://makerclub.org/clubs/brighton/"
+      },
+      {
+        "name": "Twitter",
+        "url": "https://twitter.com/makerclub"
       }
-    ]
+    ],
+    "image": "makerclub.jpg"
   },
   {
     "name": "BANG",
@@ -488,7 +590,21 @@
       {
         "name": "Website",
         "url": "https://brighton.nerdnite.com/"
+      },
+      {
+        "name": "Twitter",
+        "url": "https://twitter.com/BrightonNerd"
+      },
+      {
+        "name": "Facebook",
+        "url": "https://www.facebook.com/nerdnitebrighton"
       }
+    ],
+    "image": "nerd.jpg",
+    "tags": [
+      "monthly",
+      "science",
+      "stem"
     ]
   },
   {
@@ -497,8 +613,12 @@
     "links": [
       {
         "name": "Meetup",
-        "url": "https://www.meetup.com/en-AU/Brighton-Virtual-Reality/"
+        "url": "https://www.meetup.com/Brighton-Virtual-Reality/"
       }
+    ],
+    "tags": [
+      "vr",
+      "development"
     ]
   },
   {
@@ -507,8 +627,11 @@
     "links": [
       {
         "name": "Meetup",
-        "url": "https://www.meetup.com/en-AU/Brighton-CTO-Meetup/"
+        "url": "https://www.meetup.com/Brighton-CTO-Meetup/"
       }
+    ],
+    "tags": [
+      "monthly"
     ]
   },
   {
@@ -567,6 +690,131 @@
       "development",
       "javascript",
       "angular"
+    ],
+    "image": "angular.png"
+  },
+  {
+    "name": "Brighton Web Development Meetup",
+    "description": "If you build for the web, whether just for a hobby or professionally, then this meetup is designed for you. We don't have a specific agenda, but hopefully we can organize occasional events where we chat about all things web.",
+    "links": [
+      {
+        "name": "Website",
+        "url": "https://www.meetup.com/Brighton-Web-Development-Meetup/"
+      }
+    ],
+    "image": "bwdm.jpg"
+  },
+  {
+    "name": "Doctype Brighton",
+    "description": "The Doctype Brighton drinks are a regular monthly social meetup for those in the web industry in Brighton & Hove. It doesn’t matter if you’re a developer, designer, project manager or you do something entirely different, if you work, play or simply dabble in the web industry then come and have a drink with people that will understand your code jokes and talk to some like-minded folk.",
+    "links": [
+      {
+        "name": "Website",
+        "url": "https://doctypebrighton.com/"
+      }
+    ],
+    "image": "doctype.png"
+  },
+  {
+    "name": "Brighton Digital Festival",
+    "description": "Brighton Digital Festival is a month-long exploration of digital culture. The festival celebrates the richness of the creative and cultural industries in our city and explores the ways in which digital technology continues to shape our lives and our thinking",
+    "links": [
+      {
+        "name": "Website",
+        "url": "https://brightondigitalfestival.co.uk/"
+      },
+      {
+        "name": "Twitter",
+        "url": "https://twitter.com/DigitalBrighton"
+      }
+    ],
+    "tags": [
+      "annual"
+    ],
+    "image": "bdf.jpg"
+  },
+  {
+    "name": "Spring Forward",
+    "description": "Spring Forward is a month-long celebration of the role of women in digital culture and runs throughout March in parallel with Women's History Month.",
+    "links": [
+      {
+        "name": "Website",
+        "url": "https://wespringforward.com/"
+      },
+      {
+        "name": "Twitter",
+        "url": "https://twitter.com/WeSpringForward"
+      }
+    ],
+    "image": "springforward.png"
+  },
+  {
+    "name": "She Says Brighton",
+    "description": "SheSays Brighton helps women in tech & design through inspiring events with brilliant speakers.",
+    "links": [
+      {
+        "name": "Twitter",
+        "url": "https://twitter.com/SheSaysBrighton"
+      }
+    ],
+    "image": "shesays.jpg"
+  },
+  {
+    "name": "Sussex Data Science",
+    "description": "This group is for people interested in technology, innovations, services and research, in and related to, data science. We aim to provide you with good opportunities to learn, network, discuss and present.",
+    "links": [
+      {
+        "name": "Meetup",
+        "url": "https://www.meetup.com/SussexDataScience/"
+      }
+    ],
+    "image": "datascience.jpg",
+    "tags": [
+      "data"
+    ]
+  },
+  {
+    "name": "WordUp Brighton",
+    "description": "Welcome to the Brighton WordPress Meetup Group. We aim to meet on the last Monday of the month. Whether you're a designer, developer, blogger, content manager or anyone else who deals with WordPress, come along, learn and meet some like-minded souls.",
+    "links": [
+      {
+        "name": "Meetup",
+        "url": "https://www.meetup.com/WordUp-Brighton/"
+      }
+    ],
+    "image": "wordup.jpg",
+    "tags": [
+      "wordpress",
+      "development"
+    ]
+  },
+  {
+    "name": "Brighton Data Forum",
+    "description": "Anyone in Brighton and the surrounding area either working with data or with an interest in using data. The goal of the meetup is to connect the local community with each other, share experiences and war stories and also to meet other data and analytics professionals working in organisations nearby.",
+    "links": [
+      {
+        "name": "Meetup",
+        "url": "https://www.meetup.com/Brighton-Data-Forum/"
+      }
+    ],
+    "image": "dataforum.jpg",
+    "tags": [
+      "data"
+    ]
+  },
+  {
+    "name": "BUUG - Brighton Unity User Group",
+    "description": "Brighton Unity User Group is a meet-up for Unity enthusiasts at all skill levels! Whether you're brand new to the engine or have been using it for years, you are welcome to join us to discuss and share ideas and knowledge. Be a part of the fantastic global Unity Community, get to know your fellow developers and most importantly, have a great time!",
+    "links": [
+      {
+        "name": "Meetup",
+        "url": "https://www.meetup.com/BUUG-Brighton-Unity-User-Group/"
+      }
+    ],
+    "image": "buug.jpg",
+    "tags": [
+      "unity",
+      "development"
     ]
   }
 ]
