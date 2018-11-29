@@ -75,3 +75,8 @@ This project uses SCSS for styles. All styling should be applied with SCSS insid
 You should aim to use variables where necessary. Take a look in the `_scss/variables.scss` to see what already exists.
 
 If you are adding a new include / page to the site you should create new scss files for these.
+
+## Code of conduct
+
+For guidelines regarding the code of conduct when contributing to this repository please review [https://www.dabapps.com/open-source/code-of-conduct/](https://www.dabapps.com/open-source/code-of-conduct/)
+
