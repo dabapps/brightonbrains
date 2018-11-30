@@ -1,18 +1,18 @@
 'use strict';
 
 (function() {
-  var hiddenClass = 'display-none';
+  var DISPLAY_NONE = 'display-none';
 
   var filter;
   var filterForm;
   var listings;
 
   function setActiveState(el) {
-    el.classList.remove(hiddenClass);
+    el.classList.remove(DISPLAY_NONE);
   }
 
   function setInactiveState(el) {
-    el.classList.add(hiddenClass);
+    el.classList.add(DISPLAY_NONE);
   }
 
   function onInputChange(e) {
@@ -41,7 +41,7 @@
 
     listings = document.getElementsByClassName('listing');
 
-    filterForm.classList.remove(hiddenClass);
+    filterForm.classList.remove(DISPLAY_NONE);
     filter.addEventListener('input', onInputChange);
   }
 
