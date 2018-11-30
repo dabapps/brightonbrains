@@ -1,24 +1,18 @@
-(function(){
+'use strict';
 
-  "use strict";
-
+(function() {
   var hiddenClass = 'display-none';
 
   var filter;
   var filterForm;
   var listings;
 
-  function init() {
-    filterForm = document.getElementById('filter-form');
+  function setActiveState(el) {
+    el.classList.remove(hiddenClass);
+  }
 
-    if (!filterForm) return;
-
-    filter = document.getElementById('filter');
-
-    listings = document.getElementsByClassName("listing");
-
-    filterForm.classList.remove(hiddenClass);
-    filter.addEventListener("input", onInputChange);
+  function setInactiveState(el) {
+    el.classList.add(hiddenClass);
   }
 
   function onInputChange(e) {
@@ -36,12 +30,19 @@
     }
   }
 
-  function setActiveState(el) {
-    el.classList.remove(hiddenClass);
-  }
+  function init() {
+    filterForm = document.getElementById('filter-form');
 
-  function setInactiveState(el) {
-    el.classList.add(hiddenClass);
+    if (!filterForm) {
+      return;
+    }
+
+    filter = document.getElementById('filter');
+
+    listings = document.getElementsByClassName('listing');
+
+    filterForm.classList.remove(hiddenClass);
+    filter.addEventListener('input', onInputChange);
   }
 
   init();
