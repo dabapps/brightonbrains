@@ -355,6 +355,26 @@
     "image": "producttank.jpg"
   },
   {
+    "name": "Press Fire To Win",
+    "description": "This group is for developers, artists, game designers and players - interested in independent games to chat, and find out about upcoming game-related events around Brighton and beyond.",
+    "links": [
+      {
+        "name": "Website",
+        "url": "http://www.pressfiretowin.com/"
+      },
+      {
+        "name": "Meetup",
+        "url": "https://www.meetup.com/Press-Fire-to-Win/"
+      }
+    ],
+    "image": "pressfiretowin.jpeg",
+    "tags": [
+      "design",
+      "development",
+      "games"
+    ]
+  },
+  {
     "name": "Brighton Indies",
     "description": "Brighton Indies is a friendly pub meet up for people who make (or are interested in making) games (and game-like things) in Brighton (and nearby).",
     "links": [
