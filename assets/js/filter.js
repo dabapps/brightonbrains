@@ -2,16 +2,22 @@
 
   "use strict";
 
+  var hiddenClass = 'display-none';
+
   var filter;
+  var filterForm;
   var listings;
 
   function init() {
-    filter = document.querySelector(".js-filter-form");
-    if (!filter) return;
+    filterForm = document.getElementById('filter-form');
 
-    listings = document.querySelectorAll(".js-listing");
+    if (!filterForm) return;
 
-    filter.classList.remove("is-hidden");
+    filter = document.getElementById('filter');
+
+    listings = document.getElementsByClassName("listing");
+
+    filterForm.classList.remove(hiddenClass);
     filter.addEventListener("input", onInputChange);
   }
 
@@ -31,11 +37,11 @@
   }
 
   function setActiveState(el) {
-    el.classList.remove("is-inactive");
+    el.classList.remove(hiddenClass);
   }
 
   function setInactiveState(el) {
-    el.classList.add("is-inactive");
+    el.classList.add(hiddenClass);
   }
 
   init();

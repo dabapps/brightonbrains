@@ -1,41 +1,25 @@
 .filter {
-  @media all and (min-width: $screen-md) {
-    justify-content: flex-end;
-    display: flex;
+  .fieldset {
+    display: table;
+    width: 100%;
   }
-}
 
-.filter-form.is-hidden {
-  display: none;
-}
-
-
-.filter form {
-  @media all and (min-width: $screen-md) {
-    width: 50%;
+  label,
+  input {
+    display: table-cell;
   }
-}
 
-.filter fieldset {
-  border: 0;
-}
-
-.filter label {
-  @media all and (min-width: $screen-md) {
-    display: flex;
-    align-items: center;
+  label {
+    width: 1px;
+    padding-right: $padding-base;
+    vertical-align: middle;
   }
-}
 
-.filter input {
-  border: 0;
-  border-radius: $border-radius-base;
-  box-shadow: $shadow-soft;
-  padding: $padding-base;
-  width: 100%;
-
-  @media all and (min-width: $screen-md) {
-    flex: 1;
-    margin-left: $margin-base;
+  input {
+    border: 0;
+    border-radius: $border-radius-base;
+    box-shadow: $shadow-soft;
+    padding: $padding-base;
+    width: 100%;
   }
 }
