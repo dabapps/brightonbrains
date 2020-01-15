@@ -1,0 +1,25 @@
+.filter {
+  .fieldset {
+    display: table;
+    width: 100%;
+  }
+
+  label,
+  input {
+    display: table-cell;
+  }
+
+  label {
+    width: 1px;
+    padding-right: $padding-base;
+    vertical-align: middle;
+  }
+
+  input {
+    border: 0;
+    border-radius: $border-radius-base;
+    box-shadow: $shadow-soft;
+    padding: $padding-base;
+    width: 100%;
+  }
+}

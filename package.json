@@ -7,7 +7,9 @@
     "start": "bundle exec jekyll serve",
     "build": "bundle exec jekyll build",
     "update": "bundle update",
-    "test": "npm run update && npm run build"
+    "prettier": "prettier --write 'assets/**/*.js'",
+    "lint": "eslint assets/",
+    "test": "npm run lint && npm run update && npm run build"
   },
   "repository": {
     "type": "git",
@@ -27,5 +29,9 @@
   "bugs": {
     "url": "https://github.com/dabapps/brightonbrains-2018/issues"
   },
-  "homepage": "https://github.com/dabapps/brightonbrains-2018#readme"
+  "homepage": "https://github.com/dabapps/brightonbrains-2018#readme",
+  "devDependencies": {
+    "eslint-config-dabapps": "github:dabapps/eslint-config-dabapps#v4.0.0",
+    "prettier": "^1.15.3"
+  }
 }
